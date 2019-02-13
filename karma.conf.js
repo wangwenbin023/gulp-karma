@@ -1,6 +1,6 @@
 module.exports = function(config) {
   config.set({
-    browsers: ['Chrome'],
+    browsers: ['Chrome', 'Firefox'],
     frameworks: ['jasmine'],
     files: [
       'src/**/*.js',
